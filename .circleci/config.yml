@@ -1,8 +1,11 @@
 version: 2
 jobs:
   build:
+    working_directory: ~/simple-node-js
     docker:
-      — image: circleci/node:10
+      - image: circleci/node:10.16.3
     steps:
       - checkout
-      - run: yarn install
+      - run:
+          name: install
+          command: yarn install
