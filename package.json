@@ -1,0 +1,50 @@
+{
+  "name": "simple-node-js-server",
+  "version": "1.0.3",
+  "description": "Simple node.js server ready to use.",
+  "license": "MIT",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexdevero/Simple-Node.js-Server.git"
+  },
+  "homepage": "https://github.com/alexdevero/Simple-Node.js-Server#readme",
+  "bugs": {
+    "url": "https://github.com/alexdevero/Simple-Node.js-Server/issues"
+  },
+  "author": {
+    "name": "Alex Devero",
+    "url": "https://github.com/alexdevero"
+  },
+  "keywords": [
+    "javascript",
+    "node-js",
+    "node.js",
+    "node",
+    "nodemon",
+    "server"
+  ],
+  "engines": {
+    "node": ">=9.x",
+    "npm": ">=5.x",
+    "yarn": ">=1.x"
+  },
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d dist",
+    "serve": "node dist/index.js",
+    "start": "nodemon src/index.js --exec babel-node",
+    "test": "mocha --require babel-register --exit"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-register": "^6.26.0",
+    "mocha": "^5.1.0",
+    "nodemon": "^1.17.3"
+  },
+  "dependencies": {
+    "@sentry/node": "5.6.2",
+    "express": "^4.17.1"
+  }
+}
