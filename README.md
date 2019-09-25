@@ -1,4 +1,4 @@
-# Simple-Node.js-Server
+# Simple-Node-Express Server
 
 Simple Node.js Express server ready to use.
 
@@ -16,7 +16,7 @@ yarn
 
 ## Usage
 
-### Start project on local server (go to localhost:1337)
+### Start project on local server (go to http://127.0.0.1:3000)
 
 ```
 npm start
@@ -32,7 +32,7 @@ yarn start
 npm run build
 ```
 
-### Preview build (go to localhost:1337)
+### Preview build (go to http://127.0.0.1:3000)
 
 ```
 npm run serve
