@@ -46,7 +46,7 @@
   "dependencies": {
     "@sentry/node": "5.6.2",
     "express": "^4.17.1",
-    "set-value": "^2.0.1",
+    "set-value": "^4.0.1",
     "tar": "^5.0.0",
     "upath": "^1.2.0"
   }
